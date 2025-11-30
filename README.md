@@ -3,6 +3,8 @@
 A full-stack Employee Attendance System with role-based access for Managers and Employees.  
 This project was created for TapAcademy SDE Intern Round 2 Task.
 
+![Poster](screenshots/poster.png)
+
 Frontend uses **React + Redux Toolkit + TailwindCSS**,  
 Backend uses **Node.js + Express + MongoDB**,  
 Full system can run using **local Node/Mongo** or **Docker Compose**.
