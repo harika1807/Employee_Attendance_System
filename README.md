@@ -174,40 +174,40 @@ Below are some screenshots of the application for reference.
 
 ### 🔐 Authentication
 **Login Page**  
-![Login](screenshots/login.jpg)
+![Login](screenshots/login.png)
 
 **Register Page**  
-![Register](screenshots/register.jpg)
+![Register](screenshots/register.png)
 
 ---
 
 ### 👤 Employee Dashboard
 **Employee Dashboard**  
-![Employee Dashboard](screenshots/employee-dashboard.jpg)
+![Employee Dashboard](screenshots/employee-dashboard.png)
 
 **Mark Attendance**  
-![Mark Attendance](screenshots/mark-attendance.jpg)
+![Mark Attendance](screenshots/mark-attendance.png)
 
 **My Attendance History**  
-![Attendance History](screenshots/attendance-history.jpg)
+![Attendance History](screenshots/attendance-history.png)
 
 ---
 
 ### 👨‍💼 Manager Dashboard
 **Manager Dashboard Overview**  
-![Manager Dashboard](screenshots/manager-dashboard.jpg)
+![Manager Dashboard](screenshots/manager-dashboard.png)
 
 **All Attendance Records**  
-![All Attendance](screenshots/all-attendance.jpg)
+![All Attendance](screenshots/all-attendance.png)
 
 **Export Attendance CSV**  
-![Export CSV](screenshots/export-csv.jpg)
+![Export CSV](screenshots/export-csv.png)
 
 ---
 
 ### 🐳 Docker (Optional)
 **Docker Containers Running**  
-![Docker](screenshots/docker-running.jpg)
+![Docker](screenshots/docker-running.png)
 
 ---
 
