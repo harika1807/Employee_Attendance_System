@@ -1,0 +1,14 @@
+# frontend/Dockerfile - build static and serve with nginx
+FROM node:18-alpine AS build
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY . .
+RUN npm run build
+
+FROM nginx:alpine
+COPY --from=build /app/dist /usr/share/nginx/html
+# expose port 80 in container (host maps to 5173 in compose)
+EXPOSE 80
+# use the JSON exec form exactly (no stray quotes)
+CMD ["nginx", "-g", "daemon off;"]
